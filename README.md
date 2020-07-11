@@ -11,8 +11,9 @@ To learning purpose also for  keeping track of my work and practices
 
 ### Tree based classification
 [Notebook](https://github.com/rushikeshnaik779/MLE/blob/master/TreeBasedClassification/v%200.0.1.ipynb)
+### Practice  
 [Notebook 2](https://github.com/rushikeshnaik779/MLE/blob/master/TreeBasedClassification/Salary_classification1.ipynb)
-* This notebook 2 has all the algorithms.
+* This notebook 2 has all the algorithms for classification.
 
 ### Tree based Regression
 [Notebook](https://github.com/rushikeshnaik779/MLE/blob/master/TreeBasedRegression/v%200.0.1.ipynb)
