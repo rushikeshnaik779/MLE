@@ -18,3 +18,6 @@ To learning purpose also for  keeping track of my work and practices
 ### Tree based Regression
 [Notebook](https://github.com/rushikeshnaik779/MLE/blob/master/TreeBasedRegression/v%200.0.1.ipynb)
 
+### Hyper-opt (Notes)
+[Notebook](https://github.com/rushikeshnaik779/MLE/blob/master/Hyper_Opt_exercises%20/Exercise%20One.ipynb)
+
