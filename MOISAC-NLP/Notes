@@ -1,0 +1,239 @@
+Lexical PRocessing (Text)
+REgular Exp 
+Steming 
+BAg of word 
+phonetic Hashing 
+SPell corrector 
+
+character set 
+
+
+[a b c ]
+[a b c d e f]
+[a - z]
+[a-z A-Z]
+
+
+
+[abc]---------------- matches either an a, b or c character 
+[abcABC] ------------ Matches either an a, A, b, B, c, C character 
+[a-z]---------------- Matches any character between a and z, including a and z
+[A-Z]---------------- Matches any character between A and Z, including A and Z
+[a-zA-z] ------------ matches any character betwween a and z , including a and z ignoring cases of the characters
+[0-9] --------------- matches any character which is a number between 0 and 9 
+
+
+META SEQUENCES : 
+
+
+
+[a-zA-z]{1, 10}[0-9]{4}
+
+
+
+FIVE MOST important re functions that you would be required to use most of the times are 
+
+1) match() Determine if the RE matches at the begining of the string 
+
+2) search() Scan through a string, looking for any location where this RE matches. 
+
+3) finall() Find all the substrings where RE matches, and return them as a list. 
+
+4) finditer() Find all the substrings where RE matches & return them as an iterator. 
+
+5) sub() Find all substrings where RE matches and substitute them with the given string 
+
+
+
+INtro to lexical Processing 
+
+
+--STOP WORDS 
+
+
+
+text ->  char, words, sentences & paragraph.
+
+
+
+
+What is text corpus data : 
+
+1) highly frequent words (stop words eg: is, an, the, a) 
+2) significant words 
+3) Rarely occuring words.
+
+
+Reasons to remove stopwords : 
+1) they don't add much of the value to it.{not much meaningful information}
+2) fixing high dimensionality problem. 
+
+
+
+BAGS-OF-WORDS
+
+- tokenization 
+- stopwords removing 
+- BagsofWords - sequence of the words doesn't matter 
+
+
+Handling similar text words 
+
+1) Stemming : 
+                - potters stemmer : 
+                                        sses -> ss 
+                                        ies -> i
+                                        s-> _
+                                        only english dictionary (made in 1980 )
+                                        
+                                        
+                - snowball stemmer
+                
+                
+         : it is rule based technique 
+         : it is faster 
+         : less accuracy
+         : 
+2) Lemmatization 
+            (Intelligent technique (not-a-rule-based))
+            feet, drove, arose
+wordnet lemmatizer: 
+------------------         
+
+
+- slower because of dictionary lookup, 
+- part-of-tag-speech
+- 
+
+
+1) Phonetic HAshing & SOundex Algorithm
+2) Minimum-edit-distance-algorithm
+3) PMI Score (Pointwise Mutual Information)
+Canonnacalisation = Reducing a word to its base form. 
+
+
+Phonetic Hashing : 
+eg: New Delhi, Dilli, Delhi, etc
+
+we use phoneme(smallest unit of sound)
+algorithm used to get phoneme soundex : 
+RUles
+1) Retail first word as it is.(Soundex is based on english pronoucinng is dependent on first letter in word)
+2) REplacing the consonants with some digits
+    b,f,pv = 1
+    c, g,j,k,q,s,x,z = 2
+    d,t=3 
+    l=4
+    m,n = 5 
+    r = 6
+    h,w,y = unencoded
+
+3) Remove all vowels 
+
+4) Make it four letter 
+
+
+eg Mississippi
+1) M
+2) MI22I22I11I
+3) M222211
+4) M210
+
+
+Dealing with misspelling 
+Edit Distance : 
+                Bed 
+                Get 
+                
+                number of changes we need to convert 1) word to 2nd word 
+                
+                steps are 1) Insertion 
+                          2) Deletion 
+                          3) Substitution
+                          
+                          
+NLP EDA .. checkout below link                          
+https://towardsdatascience.com/exploratory-data-analysis-for-natural-language-processing-ff0046ab3571            
+                                
+
+
+spell corrector[Norvig's spell corrector] 
+
+1) edits_one()  {words created with one edits}
+2) edits_two(): words with two edits 
+3) 
+
+Calculate PMI score 
+if this is higher then we can combine two words .. like new york, IIT, Hong Kong
+
+
+formula of PMI(X, y) = log[p(x, y)/(p(x)p(y))]
+
+
+
+Basic Syntactic Processing(Parsing ) :
+
+algo and techniques which is use to analayse the sentence and Grammer.
+req : 
+1) WOrd order 
+2) Morphological former 
+3) Stop Words
+
+
+why syntax analysis 
+1) word order and meaning is very important. 
+2) ROle of Stop words. 
+3) ROle of morphological forms.
+    - eg :our workers are working hard to make our code work
+4) ROle of part of speech.
+5) DEpendencies 
+
+
+
+PARSING : 
+
+
+Level of Syntax Analysis : 
+1) POS tagging [Part of speech Tagging]
+    a) Tagging as verb/Noun etc 
+    b) Based on liguistic role of word 
+    c) Also called as "Shallow Parsing"
+    
+    
+eg: The Little boy went to the park. 
+
+
+2) Consitency Parsing: 
+    a) Based on the liguistic role of the subset of words. 
+    b) Context-Free grammer
+
+3) Dependencies
+    a) Subject, Object, Modifiers
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
