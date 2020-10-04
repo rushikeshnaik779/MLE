@@ -37,5 +37,5 @@ following are few courses which I did and you will find the what I learn in it t
 ## My Projects & things I explored
 so, basically you will find all the cool stuff here 
 
-1) Amazon review classification using Logistic Regression and Naive Bayes (Will update it later with DL algorithms).[Notebook]('')
-2) Implementation of Soundex Algo [Notebook]('https://github.com/rushikeshnaik779/MLE/blob/master/MOISAC-NLP/SOUNDEX.ipynb') 
+1) Amazon review classification using Logistic Regression and Naive Bayes (Will update it later with DL algorithms) [Notebook]('')
+2) Implementation of Soundex Algorithm [Notebook]('https://github.com/rushikeshnaik779/MLE/blob/master/MOISAC-NLP/SOUNDEX.ipynb') 
