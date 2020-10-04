@@ -23,3 +23,19 @@ To learning purpose also for  keeping track of my work and practices
 ### Hyper-opt (Notes)
 [Notebook](https://github.com/rushikeshnaik779/MLE/blob/master/Hyper_Opt_exercises%20/Exercise%20One.ipynb)
 
+
+# Natural Language Processing 
+
+In this repository you will find what work I did in the NLP 
+
+## NLP Courses
+following are few courses which I did and you will find the what I learn in it too. 
+1) [Moisac Academy]('https://github.com/rushikeshnaik779/MLE/tree/master/MOISAC-NLP') 
+2) [Coursera]('https://github.com/rushikeshnaik779/MLE/tree/master/MOISAC-NLP/NLPC')
+
+
+## My Projects & things I explored
+so, basically you will find all the cool stuff here 
+
+1) Amazon review classification using Logistic Regression and Naive Bayes (Will update it later with DL algorithms).[Notebook]('')
+2) Implementation of Soundex Algo [Notebook]('https://github.com/rushikeshnaik779/MLE/blob/master/MOISAC-NLP/SOUNDEX.ipynb') 
