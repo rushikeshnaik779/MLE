@@ -1,5 +1,5 @@
-# Machine Learning
-To learning purpose also for  keeping track of my work and practices
+# Machine Learning Basics
+To learning purpose also for  keeping track of my work and practices. 
 
 
 [Linear Regression](https://github.com/rushikeshnaik779/MLE/blob/master/LinearRegression%20Assumptions/LinReg.ipynb)
