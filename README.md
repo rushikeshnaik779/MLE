@@ -1,3 +1,5 @@
+[RESOURCE's](https://github.com/rushikeshnaik779/MLE/blob/master/links_to_awesome_notebooks.ipynb)
+
 # Machine Learning Basics
 To learning purpose also for  keeping track of my work and practices. 
 
